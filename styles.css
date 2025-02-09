@@ -1,0 +1,348 @@
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   
+}
+
+.logo img {
+    width: 100px; /* Modifica la larghezza secondo le tue esigenze */
+    height: auto; /* Mantiene le proporzioni */
+}
+
+.navbar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none; /* Rimuove i punti elenco */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: white; /* Colore del testo */
+    font-weight: bold;
+}
+
+.sfondo {
+    background-image: url('Object.png');
+    background-size: cover; /* Puoi usare 'contain' o altre opzioni */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita che l'immagine si ripeta */
+    height: 100vh; /* Altezza della finestra del browser */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Colore del testo */
+}
+.content {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px; /* Spazio sotto l'h1 */
+}
+
+span {
+    display: inline-block;
+    margin: 0 10px; /* Spazio tra i <span> */
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+button {
+    display: block;
+    margin-top: 20px; /* Spazio sopra il bottone */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(191, 112, 250, 1); /* Colore di sfondo del bottone */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;}
+
+
+    .pro-section {
+        
+        text-align: center;
+    
+    }
+    
+    .pro-entries {
+        
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Permette di andare a capo se lo schermo è troppo stretto */
+    }
+    
+    .pro-entry {
+        
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .pro-entry img {
+        width: 150px; /* Modifica la larghezza secondo le tue esigenze */
+        height: auto; /* Mantiene le proporzioni */
+    }
+    
+    .pro-entry h3 {
+        margin-top: 10px; /* Spazio sopra l'h3 */
+        font-size: 20px;
+        color: #333;
+    }
+    
+    .pro-entry p {
+        font-size: 16px;
+        color: #666;
+    }
+
+    .testimonial-section {
+        background-color: rgba(194, 113, 255, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+    }
+    
+    .testimonial-img img {
+        width: 200px; /* Modifica la larghezza secondo le tue esigenze */
+        height: auto; /* Mantiene le proporzioni */
+        border-radius: 50%;
+    }
+    
+    .testimonial-text {
+        margin-left: 20px; /* Spazio tra l'immagine e il testo */
+        max-width:760px; /* Limita la larghezza massima del testo */
+    }
+    
+    .testimonial-text blockquote {
+        font-size: 18px;
+        color: #333;
+        margin: 0 0 10px 0; /* Spazio intorno al blockquote */
+    }
+    
+    .testimonial-text h3 {
+        font-size: 20px;
+        color: #333;
+        margin: 0 0 5px 0; /* Spazio sopra l'h3 */
+    }
+    
+    .testimonial-text p {
+        font-size: 16px;
+        color: #666;
+        margin: 0; /* Rimuove lo spazio sotto il paragrafo */
+    }
+
+
+    .tutorials-section {
+        text-align: center;
+        margin: 40px 0; /* Spazio sopra e sotto la sezione tutorial */
+    }
+    
+    .tutorials-section h2 {
+        margin-bottom: 20px; /* Spazio sotto l'h2 */
+    }
+    
+    .tutorials-section .tutorial {
+        display: inline-block;
+        margin: 20px;
+        text-align: left; /* Allinea il testo a sinistra */
+        max-width: 300px; /* Limita la larghezza massima delle voci */
+    }
+    
+    .tutorials-section .tutorial img {
+        width: 100%; /* Occupa tutta la larghezza del contenitore */
+        height: auto; /* Mantiene le proporzioni */
+    }
+    
+    .tutorials-section .tutorial h3 {
+        font-size: 20px;
+        color: #333;
+        margin-top: 10px; /* Spazio sopra l'h3 */
+        margin-bottom: 5px; /* Spazio sotto l'h3 */
+    }
+    
+    .tutorials-section .tutorial p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px; /* Spazio sotto il paragrafo */
+    }
+    
+    .tutorials-section .tutorial .tutor {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px; /* Spazio sotto l'elemento tutor */
+    }
+    
+    .tutorials-section .tutorial .tutor img {
+        width: 40px; /* Modifica la larghezza secondo le tue esigenze */
+        height: auto; /* Mantiene le proporzioni */
+        margin-right: 10px; /* Spazio a destra dell'immagine */
+    }
+    
+    .tutorials-section .tutorial .tutor h4 {
+        font-size: 16px;
+        color: #333;
+        margin: 0; /* Rimuove lo spazio intorno all'h4 */
+    }
+    
+    .tutorials-section .tutorial .stars {
+        display: flex;
+        margin-bottom: 10px; /* Spazio sotto l'elemento delle stelle */
+    }
+    
+    .tutorials-section .tutorial .stars div {
+        color: #ffdd00; /* Colore delle stelle */
+        margin-right: 5px; /* Spazio tra le stelle */
+    }
+    
+    .tutorials-section .tutorial p:last-child {
+        font-size: 14px;
+        color: #333;
+        margin: 0; /* Rimuove lo spazio sotto l'ultimo paragrafo */
+    }
+
+
+    .free-membership {
+        text-align: center; /* Centra l'h2 */
+        margin: 40px 0; /* Spazio sopra e sotto la sezione */
+        background-color: #071629;
+        height: 300px;
+        padding-top: 20px;
+        color: white;
+    }
+    
+    .free-membership h2 {
+        margin-bottom: 20px; /* Spazio sotto l'h2 */
+        
+    }
+    
+    .free-membership div {
+        
+        display: inline-block;
+        margin: 20px;
+        text-align: center; /* Centra il contenuto all'interno dei div */
+        max-width: 200px; /* Limita la larghezza massima dei div */
+    }
+    
+    .free-membership div img {
+        width: 20%; /* Occupa tutta la larghezza del contenitore */
+        height: auto; /* Mantiene le proporzioni */
+    }
+    
+    .free-membership div h3 {
+        font-size: 18px;
+        color: white;
+        margin-top: 10px; /* Spazio sopra l'h3 */
+        margin-bottom: 5px; /* Spazio sotto l'h3 */
+    }
+    
+    .free-membership div p {
+        font-size: 16px;
+        color: white;
+        margin: 0; /* Rimuove lo spazio sotto i paragrafi */
+    }
+    
+    .free-membership button {
+        display: block;
+        margin: 20px auto; /* Spazio sopra il bottone e centra il bottone */
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(194, 113, 255, 1); /* Colore di sfondo del bottone */
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    
+    .free-membership button:hover {
+        background-color: #0056b3; /* Colore di sfondo del bottone al passaggio del mouse */
+    }
+
+
+
+
+    .faq-section {
+        text-align: center; /* Centra l'h2 */
+        margin: 40px 0; /* Spazio sopra e sotto la sezione */
+    }
+    
+    .faq-section h2 {
+        margin-bottom: 20px; /* Spazio sotto l'h2 */
+    }
+    
+    .faq-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Permette di andare a capo se lo schermo è troppo stretto */
+    }
+    
+    .faq-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        max-width: 400px; /* Limita la larghezza massima delle colonne */
+    }
+    
+    .faq-question {
+        font-size: 18px;
+        color: #333;
+        margin: 10px 0; /* Spazio sopra e sotto gli h3 */
+    }
+    
+    .faq-answer {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px; /* Spazio sotto il paragrafo */
+    }
+
+    
+
+    .footer-section {
+        display: flex;
+        justify-content: space-between; /* Distribuisce lo spazio tra il logo e le icone */
+        align-items: center; /* Allinea verticalmente al centro */
+        padding: 30px;
+        background-color: #071629; /* Colore di sfondo */
+    }
+    
+    .footer-section .logo {
+        display: flex;
+        align-items: center; /* Allinea verticalmente al centro */
+    }
+    
+    .footer-section .social-icons {
+        display: flex;
+        align-items: center; /* Allinea verticalmente al centro */
+    }
+    
+    .footer-section .social-icons img {
+        width: 30px; /* Regola la larghezza delle icone */
+        height: auto; /* Mantiene le proporzioni */
+        margin-left: 5px; /* Spazio tra le icone */
+        padding-left: 200px;
+    }
+    
+    .footer-section p {
+        text-align: center;
+        width: 100%; /* Occupa tutta la larghezza */
+        font-size: 14px;
+        color: #666;
+        margin-top: 20px; /* Spazio sopra il testo */
+    }
+    
+    
